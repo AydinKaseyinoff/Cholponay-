@@ -1,3 +1,6 @@
+.nav {
+    display: flex;
+}
 .header {
     display: flex;
     justify-content: center;
@@ -5,4 +8,14 @@
 }
 .header img {
     height: 550px;
+}
+.images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 300px;
+}
+.images img {
+    height: 100%;
+    width: 100%;
 }
